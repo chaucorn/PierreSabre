@@ -56,7 +56,7 @@ public class Humain {
     }
 
     // Private method to speak
-    private void parler(String texte) {
+    protected void parler(String texte) {
         System.out.println(texte);
     }
 }
