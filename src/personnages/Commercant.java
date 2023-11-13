@@ -19,4 +19,8 @@ public class Commercant extends Humain{
         parler("- " + argentRecu + " sous ! Je te remercie généreux donateur!");
         argent += argentRecu;
     }
+
+	public String getBienVendu() {
+		return bienVendu;
+	}
 }
