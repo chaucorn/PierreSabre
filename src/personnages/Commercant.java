@@ -14,7 +14,9 @@ public class Commercant extends Humain{
     }
 
     // Method specific to Commercant
-    public void recevoir(int argent) {
-        parler("- " + argent + " sous ! Je te remercie généreux donateur!");
+    public void recevoir(int argentRecu) {
+    	
+        parler("- " + argentRecu + " sous ! Je te remercie généreux donateur!");
+        argent += argentRecu;
     }
 }
